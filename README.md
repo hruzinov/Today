@@ -5,7 +5,7 @@
 *Practice pet-project, powered by Apple*
 
 
-Min. version: *iOS 14.0*
+Min. version: *iOS 15.0*
 
 ## License
 
