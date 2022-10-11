@@ -144,9 +144,9 @@
 			isa = PBXGroup;
 			children = (
 				49B4007628F1E07000CD2457 /* ReminderViewController.swift */,
+				49D3211C28F49E10004F8A11 /* ReminderViewController+CellConfiguration.swift */,
 				49B4007A28F1F87E00CD2457 /* ReminderViewController+Row.swift */,
 				499FE2D728F2E60D00D68A69 /* ReminderViewController+Section.swift */,
-				49D3211C28F49E10004F8A11 /* ReminderViewController+CellConfiguration.swift */,
 			);
 			path = DetailViewController;
 			sourceTree = "<group>";
@@ -154,12 +154,12 @@
 		49D3212028F4A952004F8A11 /* ContentView */ = {
 			isa = PBXGroup;
 			children = (
-				49B4007228F1BC9200CD2457 /* ReminderDoneButton.swift */,
-				49D3211E28F4A7E3004F8A11 /* UIView+PinnedSubview.swift */,
-				49D3212128F4A966004F8A11 /* TextFieldContentView.swift */,
-				49D3212328F4AB0E004F8A11 /* UIContentConfiguration+Stateless.swift */,
-				49D3212528F4AF4C004F8A11 /* TextViewContentView.swift */,
 				49D3212728F4AFE3004F8A11 /* DatePickerContentView.swift */,
+				49B4007228F1BC9200CD2457 /* ReminderDoneButton.swift */,
+				49D3212128F4A966004F8A11 /* TextFieldContentView.swift */,
+				49D3212528F4AF4C004F8A11 /* TextViewContentView.swift */,
+				49D3212328F4AB0E004F8A11 /* UIContentConfiguration+Stateless.swift */,
+				49D3211E28F4A7E3004F8A11 /* UIView+PinnedSubview.swift */,
 			);
 			path = ContentView;
 			sourceTree = "<group>";
