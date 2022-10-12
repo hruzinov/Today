@@ -9,6 +9,7 @@ extension ReminderListViewController {
         guard let id = sender.id else { return }
         completeReminder(with: id)
     }
+    
     @objc func didPressAddButton(_ sender: UIBarButtonItem) {
         let reminder = Reminder(title: "", dueDate: Date.now)
         let viewController = ReminderViewController(reminder: reminder) { [weak self] reminder in
@@ -23,11 +24,14 @@ extension ReminderListViewController {
         let navigationController = UINavigationController(rootViewController: viewController)
         present(navigationController, animated: true)
     }
+    
     @objc func didCancelAdd(_ sender: UIBarButtonItem) {
         dismiss(animated: true)
     }
+    
     @objc func didChangeListStyle(_ sender: UISegmentedControl) {
         listStyle = ReminderListStyle(rawValue: sender.selectedSegmentIndex) ?? .today
         updateSnapshot()
+        refreshBackground()
     }
 }
