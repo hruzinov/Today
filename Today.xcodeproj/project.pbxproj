@@ -141,13 +141,13 @@
 				493FA20628F72577008E77D4 /* CAGradientLayer+ListStyle.swift */,
 				4984C00C28F186B9000EE431 /* Date+Today.swift */,
 				4999545E28FB389A0093A4F0 /* EKEventStore+AsyncFetch.swift */,
+				4999546428FB4C030093A4F0 /* EKReminder+Reminder.swift */,
 				49ADAA2328F173D3000810B3 /* Reminder.swift */,
 				4999546028FB3AC80093A4F0 /* Reminder+EKReminder.swift */,
 				4984224A28F5EA2E00A0C676 /* ReminderListStyle.swift */,
 				4999546228FB3CEC0093A4F0 /* ReminderStore.swift */,
 				4999545C28FB384F0093A4F0 /* TodayError.swift */,
 				49719B1728F1939600154F34 /* UIColor+Today.swift */,
-				4999546428FB4C030093A4F0 /* EKReminder+Reminder.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
