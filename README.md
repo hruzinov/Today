@@ -10,8 +10,6 @@ Min. version: *iOS 15.0*
 ## TODO
 
 - [ ] Working with reminders without date
-- [x] Working with reminders with date in past
-- [x] BUG: When reminder is complete in another app, done button style dosen't updating
 
 ## License
 
