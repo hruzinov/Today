@@ -10,7 +10,7 @@ class DatePickerContentView: UIView, UIContentView {
         var onChange: (Date)->Void = { _ in }
         
         func makeContentView() -> UIView & UIContentView {
-            return DatePickerContentView(self)
+            DatePickerContentView(self)
         }
     }
     

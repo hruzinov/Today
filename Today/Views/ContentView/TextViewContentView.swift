@@ -10,7 +10,7 @@ class TextViewContentView: UIView, UIContentView {
         var onChange: (String)->Void = { _ in }
 
         func makeContentView() -> UIView & UIContentView {
-            return TextViewContentView(self)
+            TextViewContentView(self)
         }
     }
     

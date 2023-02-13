@@ -1,0 +1,28 @@
+/****************************************************************************/
+/* Localization file */
+
+"This device doesn't allow access to reminders." = "Цей пристрій не надає доступ до нагадувань.";
+"Failed to read reminders." = "Не вдалось відкрити нагадування.";
+"A reminder has no due date." = "Нагадування не має кінцевої дати.";
+"Failed to read a calendar item." = "Не вдалося прочитати пункт календаря.";
+"An unknown error occurred." = "Сталася невідома помилка.";
+"The app doesn't have permission to read reminders." = "У додатку немає дозволу на доступ до нагадувань.";
+"Reminder" = "Нагадування";
+"Notes" = "Нотатки";
+"Date" = "Дата";
+"Title" = "Назва";
+"Delete" = "Видалити";
+"OK" = "OK";
+"Error" = "Помилка.";
+"Add reminder" = "Додати нагадування";
+"All" = "Усі";
+"Future" = "Майбутні";
+"Today" = "Сьогодні";
+"Progress" = "Прогрес";
+"%d percent" = "%d відсотків";
+"%@ at %@" = "%@ о %@";
+"Today at %@" = "Сьогодні о %@";
+"Toggle completion" = "Переключити статус виконання";
+"Not completed" = "Не виконано";
+"Completed" = "Виконано";
+"Add Reminder" = "Додати нагадування";

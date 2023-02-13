@@ -9,7 +9,7 @@ class ReminderListViewController: UICollectionViewController {
     var reminders: [Reminder] = []
     var listStyle: ReminderListStyle = .today
     var filteredReminders: [Reminder] {
-        return reminders.filter { listStyle.shouldInclude(date: $0.dueDate) }.sorted { $0.dueDate < $1.dueDate }
+        reminders.filter { listStyle.shouldInclude(date: $0.dueDate) }.sorted { $0.dueDate < $1.dueDate }
     }
     let listStyleSegmentedControl = UISegmentedControl(items: [
         ReminderListStyle.today.name, ReminderListStyle.future.name, ReminderListStyle.all.name
@@ -35,12 +35,12 @@ class ReminderListViewController: UICollectionViewController {
         let cellRegistration = UICollectionView.CellRegistration(handler: cellRegistrationHandler)
         
         dataSource = DataSource(collectionView: collectionView) { (collectionView: UICollectionView, indexPath: IndexPath, itemIdentifier: Reminder.ID) in
-            return collectionView.dequeueConfiguredReusableCell(using: cellRegistration, for: indexPath, item: itemIdentifier)
+            collectionView.dequeueConfiguredReusableCell(using: cellRegistration, for: indexPath, item: itemIdentifier)
         }
         
         let headerRegistration = UICollectionView.SupplementaryRegistration(elementKind: ProgressHeaderView.elementKind, handler: supplementaryRegistrationHandler)
         dataSource.supplementaryViewProvider = { supplementaryView, elementKind, indexPath in
-            return self.collectionView.dequeueConfiguredReusableSupplementary(using: headerRegistration, for: indexPath)
+            self.collectionView.dequeueConfiguredReusableSupplementary(using: headerRegistration, for: indexPath)
         }
         
         let addButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(didPressAddButton(_:)))

@@ -1,0 +1,28 @@
+/****************************************************************************/
+/* Localization file */
+
+"This device doesn't allow access to reminders." = "This device doesn't allow access to reminders.";
+"Failed to read reminders." = "Failed to read reminders.";
+"A reminder has no due date." = "A reminder has no due date.";
+"Failed to read a calendar item." = "Failed to read a calendar item.";
+"An unknown error occurred." = "An unknown error occurred.";
+"The app doesn't have permission to read reminders." = "The app doesn't have permission to read reminders.";
+"Reminder" = "Reminder";
+"Notes" = "Notes";
+"Date" = "Date";
+"Title" = "Title";
+"Delete" = "Delete";
+"OK" = "OK";
+"Error" = "Error";
+"Add reminder" = "Add reminder";
+"All" = "All";
+"Future" = "Future";
+"Today" = "Today";
+"Progress" = "Progress";
+"%d percent" = "%d percent";
+"%@ at %@" = "%@ at %@";
+"Today at %@" = "Today at %@";
+"Toggle completion" = "Toggle completion";
+"Not completed" = "Not completed";
+"Completed" = "Completed";
+"Add Reminder" = "Add Reminder";
